@@ -2,17 +2,19 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1>segunda questão</h1>
     <button onclick="cancelar()">cancelar</button>
     <p id="resposta"></p>
+    <p id="cancelado"></p>
 
     <script>
         let lista = ["doc1.pdf", "doc2.pdf", "doc3.pdf"];
         resposta.innerHTML = lista;
+
         function cancelar() {
             cancelado.innerHTML = lista.pop()
             resposta.innerHTML = lista;
